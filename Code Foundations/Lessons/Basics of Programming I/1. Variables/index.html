@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="main.js"></script>
+    <title></title>
+</head>
+
+<body>
+    <div class="game-board" aria-label='9 game tiles arranged in a 3x3 grid. Tile labels will update according to the value of the corresponding variable in main.js. Tiles labelled "terrain one" correspond to the variable one, tiles labelled "terrain two" correspond to the variable two, and so on'>
+        <!-- row one -->
+        <div aria-label="Tile One, Terrain One, no terrain" class="rectangle one-value" id="one" role="img">
+            <p>terrain one</p>
+        </div>
+        <div aria-label="Tile Two, Terrain Two, no terrain" class="rectangle two-value" id="two" role="img">
+            <p>terrain two</p>
+        </div>
+        <div aria-label="Tile Three, Terrain One, no terrain" class="rectangle one-value" id="three" role="img">
+            <p>terrain one</p>
+        </div>
+
+        <!-- row two -->
+        <div aria-label="Tile Four, Terrain Three, no terrain" class="rectangle three-value" id="four" role="img">
+            <p>terrain three</p>
+        </div>
+        <div aria-label="Tile Five, Terrain Two, no terrain" class="rectangle two-value" id="five" role="img">
+            <p>terrain two</p>
+        </div>
+        <div aria-label="Tile Six, Terrain Three, no terrain" class="rectangle three-value" id="six" role="img">
+            <p>terrain three</p>
+        </div>
+        <!-- row three -->
+        <div aria-label="Tile Seven, Terrain Two, no terrain" class="rectangle two-value" id="seven" role="img">
+            <p>terrain two</p>
+        </div>
+        <div aria-label="Tile Eight, Terrain One, no terrain" class="rectangle one-value" id="eight" role="img">
+            <p>terrain one</p>
+        </div>
+        <div aria-label="Tile Nine, Terrain Two, no terrain" class="rectangle two-value" id="nine" role="img">
+            <p>terrain two</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
